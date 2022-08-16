@@ -1,0 +1,13 @@
+.head {
+  margin: 0 auto;
+  background-color: var(--light-background-color);
+}
+
+.head--border {
+  border-bottom: 1px solid #ececec;
+}
+
+.head__contacts {
+  display: flex;
+  align-items: center;
+}

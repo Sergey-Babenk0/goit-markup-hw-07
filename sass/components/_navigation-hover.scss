@@ -1,0 +1,51 @@
+.links .navigation-links:hover,
+.links .navigation-links:focus {
+  color: var(--brand-color-one);
+}
+
+.adresses-links:hover,
+.adresses-links:focus {
+  color: var(--brand-color-one);
+}
+
+.links .adresses-links:active {
+  color: var(--brand-color-one);
+}
+
+.icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.adresses-links .icon:hover,
+.adresses-links .icon:focus {
+  fill: var(--brand-color-one);
+}
+
+.active {
+  color: var(--brand-color-one);
+}
+
+.active-studio::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 76px;
+  left: auto;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--brand-color-one);
+}
+
+.active-portfolio::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 76px;
+  left: auto;
+  width: 78px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--brand-color-one);
+}
