@@ -1,6 +1,10 @@
 .do {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  & > .container {
+    padding-top: 0;
+  }
 }
 
 .do-title {
@@ -21,13 +25,10 @@
   padding: 0;
   margin-bottom: 0;
   list-style: none;
-}
-.do-list > li:last-child {
-  margin-right: 0;
-}
 
-.do > .container {
-  padding-top: 0;
+  & > li:last-child {
+    margin-right: 0;
+  }
 }
 
 .do-text {

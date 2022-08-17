@@ -3,14 +3,14 @@
   align-items: center;
   padding-top: 24px;
   padding-bottom: 25px;
-}
 
-.navigation > ul {
-  margin-right: 331px;
-}
+  & > ul {
+    margin-right: 331px;
+  }
 
-.navigation > ul:last-child {
-  margin-right: 0;
+  & > ul:last-child {
+    margin-right: 0;
+  }
 }
 
 .links {
@@ -20,15 +20,17 @@
   margin-left: auto;
   list-style: none;
   align-items: center;
+
+  & > li {
+    margin-right: 50px;
+  }
+  
+  & > li:last-child {
+    margin-right: 0;
+  }
 }
 
-.links > li {
-  margin-right: 50px;
-}
 
-.links > li:last-child {
-  margin-right: 0;
-}
 
 .elements-links {
   display: block;

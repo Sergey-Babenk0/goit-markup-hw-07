@@ -15,11 +15,11 @@
 .icon {
   margin-right: 10px;
   fill: currentColor;
-}
 
-.adresses-links .icon:hover,
-.adresses-links .icon:focus {
-  fill: var(--brand-color-one);
+  .adresses-links &:hover,
+  .adresses-links &:focus {
+    fill: var(--brand-color-one);
+  }
 }
 
 .active {
